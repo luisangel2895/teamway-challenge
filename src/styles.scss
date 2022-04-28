@@ -1,0 +1,38 @@
+// Colors
+$primary_color: #6a5ae0;
+$secondary_color: #9087e5;
+$pink-color: #ff8fa2;
+$accent_color1: #ffd6dd;
+$accent_color2: #c4d0fb;
+$accent_color3: #c9f2e9;
+
+$black_color: #0c092a;
+$grey_color_1: #49465f;
+$grey_color_2: #858494;
+$grey_color_3: #cccccc;
+$grey_color_4: #e6e6e6;
+$grey_color_5: #efeefc;
+$white_color: #ffffff;
+
+// Reset global styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+$logo_font: 'Nunito', sans-serif;
+$text_font: 'Poppins', sans-serif;
+
+// Hidden the scrollbar for mobiles
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
