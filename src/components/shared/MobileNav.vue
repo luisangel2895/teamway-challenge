@@ -104,15 +104,11 @@ export default class MobileNav extends Vue {
       animation-name: show-circle;
       animation-duration: 0.7s;
     }
-    .link-home {
-    }
     .link-search {
       margin-right: 40px;
     }
     .link-stats {
       margin-left: 40px;
-    }
-    .link-profile {
     }
   }
 }

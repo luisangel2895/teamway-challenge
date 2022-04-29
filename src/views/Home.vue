@@ -209,6 +209,9 @@ export default class Home extends Vue {
           font-weight: 600;
           color: $primary_color;
         }
+        button:active {
+          background-color: hsl(0, 0%, 90%);
+        }
       }
     }
   }
