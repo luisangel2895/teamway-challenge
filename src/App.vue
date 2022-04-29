@@ -35,4 +35,10 @@ export default class App extends Vue {
     height: calc(100vh - 80px);
   }
 }
+
+// @media (min-width: 450px) {
+//   #app {
+//     width: 450px !important;
+//   }
+// }
 </style>

@@ -10,6 +10,7 @@ import CreateQuiz from '@/views/CreateQuiz.vue';
 import Quiz from '@/views/Quiz.vue';
 import NotFound from '@/components/shared/NotFound.vue';
 import Result from '@/components/quiz/Result.vue';
+import ReviewAnswers from '@/views/ReviewAnswers.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -56,6 +57,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/results',
     name: 'Result',
     component: Result,
+  },
+  {
+    path: '/review',
+    name: 'Review',
+    component: ReviewAnswers,
   },
   { path: '/:pathMatch(.*)*', component: NotFound },
 ];

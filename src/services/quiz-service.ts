@@ -1,9 +1,9 @@
 // Types
-import { Quiz, QuizResponse } from '@/types/quiz.d';
+import { Quiz, QuizResponse, Response } from '@/types/quiz.d';
 // Fake Data
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import { allQuizzes, quizzes } from '@/data/database';
+import { allQuizzes, quizzes, responses } from '@/data/database';
 
 export const getAllQuizzes = async (): Promise<QuizResponse[]> => allQuizzes;
 
@@ -21,4 +21,9 @@ export const getQuizesService = async (
   } catch (e) {
     throw new Error(`We cant get the question of the test with id: ${id}`);
   }
+};
+
+export const getQuizResponses = async (): Promise<Response[]> => {
+  const responsesData: Response[] = await responses;
+  return responsesData;
 };

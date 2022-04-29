@@ -480,24 +480,27 @@ const quizzes = [
   },
 ];
 
-const results = [
+const responses = [
   {
     quiz: 'test-personality',
     results: [
       {
         id: 'introvert',
         title: 'You are more of an introvert',
-        text: `You feel that living alone is to live happily, and you prefer hiding in a crowd rather than standing out in one. 
+        text: `You feel that living alone is to live happily, and you prefer hiding in a crowd rather than standing out in one.
+
         You are perpetually tormented by the idea of doing things wrong, not understanding or not being alert enough or intelligent 
         enough to do what others expect of you. You lack in self-confidence and you seem to believe that others are better than you.
          While in a conversation, for example, you would be more likely to go along with the other's points of view as you don't fully 
          respect your own opinions. Where there's a low level task to complete or a service to be allotted, it's you who volunteers. 
          When people want to get out of a task, they naturally come to you as they know that you never say 'no'.
+
         It's not surprising that you sometimes have the impression of being permanently exploited, but you don't really know how to 
         break this vicious circle. On the rare occasions that you've tried to do so, this uncharacteristic defiance has caused uproar 
         and you've ended up backing down. You are afraid of contact with others as you imagine that they are constantly judging you and 
         that their probing looks will obviously find your faults. So, you try to remain the most transparent and discreet possible. How 
         far will you take this logic of self-denigration? Try and stop projecting onto others the bad image you have about yourself. 
+
         Have a good look around you and you'll see that they too have faults, weaknesses and shortcomings, so stop finding excuses for everything. 
         Maybe you were brought up in an atmosphere of 'You'll never make the grade' as a child — a poison that you need progressively to 
         get out of your system. Learn to look after your own interests — everyone else does, so why not you? You too have desires, dreams and 
@@ -514,6 +517,7 @@ const results = [
         move and plan every inch of your life, and you find the sphere of family and friends to be much more gratifying to the professional sphere. You 
         are more expressive in emotional, sensorial and human terms and at home your organisation skills and capacity to oil the family wheels work well 
         and many of your family and friends appreciate your qualities and skills.
+
         At first glance, people find it hard to understand how you could be so comfortable organising your private life and then seem to lose the better 
         part of your self-confidence when you're in public. Maybe it's a question of rhythm? If you feel comfortable in your domestic rhythm it's perhaps 
         because it works more on a short-term basis (day, week or more rarely a month). On the contrary, the rhythm of professional life seems less concrete 
@@ -531,13 +535,15 @@ const results = [
       {
         id: 'good',
         title: "You're a good in math",
+        text: "You're a good in math, congratulations, few people have talent in math and you are a one, in the new update of the app we include quizzes of advanced math especialy for talent people like you.",
       },
       {
         id: 'bad',
         title: 'You need a more practice',
+        text: 'You need a more practice, but you can improve in math,you just need to make tests every day in our platform, in in just 1 month you can become in a master in math.',
       },
     ],
   },
 ];
 
-export { allQuizzes, quizzes, results };
+export { allQuizzes, quizzes, responses };

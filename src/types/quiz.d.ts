@@ -21,3 +21,16 @@ export interface Quiz {
   id: string;
   questions: Question[];
 }
+
+// Response
+
+export interface Result {
+  id: string;
+  title: string;
+  text: string;
+}
+
+export interface Response {
+  quiz: string;
+  results: Result[];
+}
