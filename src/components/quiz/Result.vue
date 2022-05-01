@@ -42,14 +42,14 @@ export default class Result extends Vue {
     console.log('QUIZ -> ', this.currentQuiz);
     console.log('ANSWERS -> ', this.answearsQuiz);
     this.RESET_ANSWEAR_QUIZ([]);
-    this.$router.push({ name: 'Home' });
+    this.$router.push('/');
   }
 
   goReview(): void {
-    this.$router.push({ name: 'Review' });
+    this.$router.push('/review');
   }
 
-  async beforeMount(): Promise<void> {
+  async mounted(): Promise<void> {
     await this.getAllQuizzesResponses();
     await this.getQuizResponse(this.currentQuiz.id);
   }

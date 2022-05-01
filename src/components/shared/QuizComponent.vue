@@ -34,7 +34,7 @@ export default class QuizComponent extends Vue {
   getQuizes!: (id: string) => Promise<void>;
 
   async goQuiz(): Promise<void> {
-    this.$router.push({ name: 'Quiz' });
+    this.$router.push('/quiz');
     await this.getQuizes(this.quiz.id);
   }
 

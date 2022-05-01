@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import { mapState, mapActions } from 'vuex';
+import { mapState } from 'vuex';
 // Components
 import Question from '@/components/quiz/Question.vue';
 // Types
@@ -22,12 +22,11 @@ import { Quiz as QuizType } from '@/types/quiz.d';
 
 @Options({
   computed: {
-    ...mapState(['currentQuiz', 'quizzes', 'percentQuiz']),
+    ...mapState(['currentQuiz', 'percentQuiz']),
   },
   components: {
     Question,
   },
-  methods: mapActions(['']),
 })
 export default class Quiz extends Vue {
   id = 1;

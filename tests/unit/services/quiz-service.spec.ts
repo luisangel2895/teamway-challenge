@@ -11,7 +11,7 @@ import { Quiz, QuizResponse, Response } from '@/types/quiz.d';
 // @ts-ignore
 import { allQuizzes, quizzes, responses } from '@/data/database';
 
-describe('News service', (): void => {
+describe('Quiz Services', (): void => {
   //    Testing getAllQuizzes service
   it('Testing service => GET/All Quizzes', async () => {
     const quizzesReceived: QuizResponse[] = await getAllQuizzes();

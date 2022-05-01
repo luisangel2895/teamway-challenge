@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in component Home.vue Match with snapshot 1`] = `
+<div class="home">
+  <div class="profile-home">
+    <div class="profile-home__profile">
+      <div class="profile-home__profile-time">
+        <div class="image-time"><img src="undefined"></div>
+        <div class="text-time">GOOD MORNING</div>
+      </div>
+      <div class="profile-home__profile-name">Angel Orellana</div>
+    </div>
+    <div class="profile-home__image"><img src="undefined"></div>
+  </div>
+  <div class="recent-quiz">
+    <div class="recent-quiz__data">
+      <div class="recent-quiz__data-title">RECENT QUIZ</div>
+      <div class="recent-quiz__data-test">
+        <div class="test-icon"><img src="undefined"></div>
+        <div class="test-text">Personality Quiz</div>
+      </div>
+    </div>
+    <div class="recent-quiz__graphic"><img src="undefined"></div>
+  </div>
+  <div class="recomendation">
+    <div class="recomendation__background">
+      <div class="recomendation__background__image-boy"><img src="undefined"></div>
+      <div class="recomendation__background__forms"><img src="undefined"></div>
+      <div class="recomendation__background__image-girl"><img src="undefined"></div>
+    </div>
+    <div class="recomendation__container">
+      <div class="recomendation__container-title">RECOMENDATION</div>
+      <div class="recomendation__container-text">Dont forget share your results with your friends</div>
+      <div class="recomendation__container-button"><button>Share with Friends</button></div>
+    </div>
+  </div>
+  <div class="tests">
+    <div class="tests__title"> Quizzes</div>
+    <div class="tests__container">
+      <quiz-component-stub quiz="[object Object]"></quiz-component-stub>
+      <quiz-component-stub quiz="[object Object]"></quiz-component-stub>
+    </div>
+  </div>
+</div>
+`;

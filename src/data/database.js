@@ -394,7 +394,7 @@ const quizzes = [
         alternatives: [
           {
             id: 'a',
-            alternative: '1',
+            alternative: '4',
           },
           {
             id: 'b',
@@ -406,7 +406,7 @@ const quizzes = [
           },
           {
             id: 'd',
-            alternative: '4',
+            alternative: '1',
           },
         ],
       },
@@ -416,7 +416,7 @@ const quizzes = [
         alternatives: [
           {
             id: 'a',
-            alternative: '1',
+            alternative: '2.5',
           },
           {
             id: 'b',
@@ -424,7 +424,7 @@ const quizzes = [
           },
           {
             id: 'c',
-            alternative: '2.5',
+            alternative: '1',
           },
           {
             id: 'd',

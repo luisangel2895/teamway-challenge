@@ -106,16 +106,18 @@ export default createStore({
       // Calculate the result
       let numberIntroverts = 0;
       let numberExtroverts = 0;
-      const goodAnswersMath = 0;
-      const badAnswersMath = 0;
+      let goodAnswersMath = 0;
+      let badAnswersMath = 0;
       let responseQuiz: Result | undefined;
 
       state.answearsQuiz.forEach((alternative: Alternative) => {
         if (alternative.id === 'a' || alternative.id === 'b') {
           numberIntroverts += 1;
+          goodAnswersMath += 1;
         }
         if (alternative.id === 'c' || alternative.id === 'd') {
           numberExtroverts += 1;
+          badAnswersMath += 1;
         }
       });
       if (idQuiz === 'test-personality') {

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in component App.vue Match with snapshot 1`] = `
+<div id="app">
+  <loader-stub></loader-stub>
+  <main>
+    <router-view-stub></router-view-stub>
+  </main>
+  <mobile-nav-stub></mobile-nav-stub>
+</div>
+`;

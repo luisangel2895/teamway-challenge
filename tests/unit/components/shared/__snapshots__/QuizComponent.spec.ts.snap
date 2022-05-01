@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in component QuizComponent.vue Match with snapshot 1`] = `
+<div class="quiz-component entry-left">
+  <div class="quiz-component__image"><img></div>
+  <div class="quiz-component__data">
+    <div class="quiz-component__data-title">Personality Test</div>
+    <div class="quiz-component__data-type">
+      <div class="quiz-component__data-type-topic">Psichology -</div>
+      <div class="quiz-component__data-type-number">1 Questions</div>
+    </div>
+  </div>
+  <div class="quiz-component__icon"><img></div>
+</div>
+`;

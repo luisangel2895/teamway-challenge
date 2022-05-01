@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in component Question.vue Match with snapshot 1`] = `
+<div class="question">
+  <div class="question-container">
+    <div class="question-number">QUESTION 1 OF 14</div>
+    <div class="question-question">You're really busy at work and a colleague is telling you their life story and personal woes. You:</div>
+    <div class="question-alternatives">
+      <alternative-stub alternative="[object Object]"></alternative-stub>
+      <alternative-stub alternative="[object Object]"></alternative-stub>
+      <alternative-stub alternative="[object Object]"></alternative-stub>
+      <alternative-stub alternative="[object Object]"></alternative-stub>
+    </div>
+  </div>
+  <div class="question-button"><button disabled="">Next</button></div>
+</div>
+`;

@@ -3,4 +3,11 @@ module.exports = {
   transform: {
     '^.+\\.vue$': 'vue-jest',
   },
+  globals: {
+    'vue-jest': {
+      pug: {
+        doctype: 'html',
+      },
+    },
+  },
 };

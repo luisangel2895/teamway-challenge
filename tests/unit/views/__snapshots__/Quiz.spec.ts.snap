@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in component Quiz.vue Match with snapshot 1`] = `
+<div class="quiz-page">
+  <div class="container-progress">
+    <div class="container-progress__profile"><img></div>
+    <div class="container-progress__bar">
+      <div class="container-progress__bar-filled" id="bar"></div>
+    </div>
+    <div class="container-progress__percent">
+      <div class="container-progress__percent-box">0 %</div>
+    </div>
+  </div>
+  <div class="container-questions">
+    <question-stub question="[object Object]" total="14"></question-stub>
+  </div>
+</div>
+`;
