@@ -11,7 +11,7 @@ module.exports = {
     name: 'Quiz App',
     themeColor: '#6a5ae0',
     manifestOptions: {
-      short_name: 'Quiz',
+      short_name: 'Quiz App',
     },
   },
 
