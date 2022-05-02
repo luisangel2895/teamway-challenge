@@ -4,8 +4,8 @@ In this challenge I created a quizzes application where you can create and solve
 
 For reasons of time I was only able to develop the mobile version, for PC I modified the project a bit, here are the project links for mobile and desktop, I recommend using the links with these devices for a better experience:
 
-mobile -> https://cerulean-pudding-817c42.netlify.app/
-desktop -> https://aesthetic-basbousa-6bfce6.netlify.app/
+- **mobile** -> [Mobile App](https://cerulean-pudding-817c42.netlify.app/)
+- **desktop** -> [Desktop App](https://aesthetic-basbousa-6bfce6.netlify.app/)
 
 In a few days I will convert this app into an Android app using Cordova, to have a native app experience.
 
