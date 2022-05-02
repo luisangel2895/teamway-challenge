@@ -17,7 +17,7 @@ export default class CreateQuiz extends Vue {}
 
 <style lang="scss">
 .create-quiz {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 </style>

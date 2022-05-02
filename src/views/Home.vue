@@ -65,14 +65,14 @@ export default class Home extends Vue {
 </script>
 <style lang="scss" scoped>
 .home {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: $primary_color;
   padding-top: 50px;
   font-family: $text_font;
 
   .profile-home {
-    width: 90vw;
+    width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -113,7 +113,7 @@ export default class Home extends Vue {
     }
   }
   .recent-quiz {
-    width: 90vw;
+    width: 90%;
     margin: auto;
     display: flex;
     margin-top: 30px;
@@ -172,16 +172,16 @@ export default class Home extends Vue {
 
       &__image-girl {
         position: absolute;
-        right: 40px;
+        left: 56%;
         margin-top: -80px;
       }
     }
 
     &__container {
       position: absolute;
-      margin-top: -200px;
+      margin-top: -220px;
+      margin-left: -10px;
       text-align: center;
-      width: 90%;
 
       &-title {
         color: rgba(255, 255, 255, 0.8);

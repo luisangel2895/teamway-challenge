@@ -36,7 +36,7 @@ export default class ReviewAnswers extends Vue {
 
 <style lang="scss" scoped>
 .review-answers {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   position: absolute;
   z-index: 20;
@@ -73,6 +73,11 @@ export default class ReviewAnswers extends Vue {
     margin-bottom: 20px;
     background-color: $grey_color_5;
     border-radius: 20px;
+  }
+}
+@media (min-width: 450px) {
+  .review-answers {
+    max-width: 450px;
   }
 }
 </style>

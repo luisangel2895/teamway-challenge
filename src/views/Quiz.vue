@@ -50,7 +50,7 @@ export default class Quiz extends Vue {
 
 <style lang="scss" scoped>
 .quiz-page {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: absolute;
   z-index: 20;
@@ -106,5 +106,10 @@ export default class Quiz extends Vue {
 .container-questions {
   height: 90%;
   padding: 0px 10px 10px 10px;
+}
+@media (min-width: 450px) {
+  .quiz-page {
+    max-width: 450px;
+  }
 }
 </style>

@@ -20,7 +20,7 @@ export default class Loader extends Vue {
 
 <style lang="scss" scoped>
 .loader-page {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: fixed;
   background-color: $primary_color;
@@ -30,12 +30,12 @@ export default class Loader extends Vue {
   z-index: 100;
 
   &__forms {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
 
     &-image {
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       animation-name: fade-in;
       animation-duration: 2.5s;
@@ -44,7 +44,7 @@ export default class Loader extends Vue {
   }
 
   &__container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
     display: flex;
@@ -102,6 +102,12 @@ export default class Loader extends Vue {
   100% {
     opacity: 1;
     filter: grayscale(0%);
+  }
+}
+
+@media (min-width: 450px) {
+  .loader-page {
+    max-width: 450px;
   }
 }
 </style>

@@ -58,7 +58,7 @@ export default class Result extends Vue {
 
 <style lang="scss" scoped>
 .result {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   position: absolute;
   z-index: 20;
@@ -128,7 +128,7 @@ export default class Result extends Vue {
   }
 
   &__button {
-    width: 100%;
+    width: 450px;
     position: fixed;
     bottom: 0;
     display: flex;
@@ -157,6 +157,11 @@ export default class Result extends Vue {
       padding: 10px;
       border-radius: 15px;
     }
+  }
+}
+@media (min-width: 450px) {
+  .result {
+    max-width: 450px;
   }
 }
 </style>

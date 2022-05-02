@@ -49,19 +49,19 @@ export default class Login extends Vue {
 
 <style lang="scss" scoped>
 .fragment {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: $primary_color;
   z-index: 40;
   position: absolute;
 
   &__background {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
 
     &-image {
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       animation-name: fade-in;
       animation-duration: 0.5s;
@@ -70,7 +70,7 @@ export default class Login extends Vue {
   }
 
   &__container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
     display: flex;
@@ -214,6 +214,12 @@ export default class Login extends Vue {
   }
   to {
     opacity: 0;
+  }
+}
+
+@media (min-width: 450px) {
+  .fragment {
+    max-width: 450px;
   }
 }
 </style>

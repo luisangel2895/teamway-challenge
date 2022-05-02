@@ -33,11 +33,16 @@ export default class Introduction extends Vue {
 
 <style lang="scss" scoped>
 .introduction {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: absolute;
   z-index: 40;
   display: flex;
   background-color: $primary_color;
+}
+@media (min-width: 450px) {
+  .introduction {
+    max-width: 450px;
+  }
 }
 </style>

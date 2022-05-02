@@ -27,7 +27,7 @@ export default class Working extends Vue {}
   font-family: $text_font;
   background-color: $primary_color;
   &__image {
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     display: flex;
     align-items: flex-end;
@@ -37,7 +37,7 @@ export default class Working extends Vue {}
     }
   }
   &__box {
-    width: 96vw;
+    width: 96%;
     height: 60vh;
     margin: auto;
     border-radius: 40px;

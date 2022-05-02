@@ -24,7 +24,6 @@ export default class App extends Vue {
     await setTimeout(() => {
       this.loading = false;
     }, 3000);
-    // this.getNews();
   }
 }
 </script>
@@ -36,9 +35,12 @@ export default class App extends Vue {
   }
 }
 
-// @media (min-width: 450px) {
-//   #app {
-//     width: 450px !important;
-//   }
-// }
+@media (min-width: 450px) {
+  body {
+    max-width: 450px;
+    background-color: $black_color;
+    margin: auto;
+    z-index: 100;
+  }
+}
 </style>

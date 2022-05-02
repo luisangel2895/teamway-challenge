@@ -23,20 +23,20 @@ export default class Profile extends Vue {}
 
 <style lang="scss" scoped>
 .profile {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-color: $primary_color;
   padding-top: 10px;
   font-family: $text_font;
 
   &__background {
-    width: 100vw;
+    width: 450px;
     height: 100vh;
     position: absolute;
     top: 0px;
 
     img {
-      width: 100vw;
+      width: 450px;
       height: 100vh;
       animation-name: fade-in;
       animation-duration: 0.5s;
@@ -46,9 +46,11 @@ export default class Profile extends Vue {}
 
   &__image {
     position: absolute;
-    width: 100%;
+    max-width: 450px;
     text-align: center;
     top: 60px;
+    left: calc(50% - 40px);
+
     img {
       width: 90px;
       border-radius: 100%;

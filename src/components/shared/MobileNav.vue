@@ -60,17 +60,17 @@ export default class MobileNav extends Vue {
 
 <style lang="scss">
 .mobile-nav {
-  width: 100vw;
+  width: 100%;
   position: fixed;
   bottom: -5px;
   z-index: 10;
 
   &__form {
-    width: 100vw;
+    width: 100%;
 
     .img-form {
       img {
-        width: 100vw;
+        width: 100%;
       }
     }
     .img-new-quiz {
@@ -85,7 +85,7 @@ export default class MobileNav extends Vue {
   }
 
   &__links {
-    width: 100vw;
+    width: 100%;
     position: absolute;
     bottom: 25px;
     z-index: 15;
@@ -131,6 +131,11 @@ export default class MobileNav extends Vue {
   }
   to {
     opacity: 1;
+  }
+}
+@media (min-width: 450px) {
+  .mobile-nav {
+    max-width: 450px;
   }
 }
 </style>

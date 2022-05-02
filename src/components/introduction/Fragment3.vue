@@ -86,17 +86,17 @@ export default class Fragment1 extends Vue {
 
 <style lang="scss" scoped>
 .fragment {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: $primary_color;
 
   &__background {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
 
     &-image {
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       animation-name: fade-in;
       animation-duration: 0.5s;
@@ -105,7 +105,7 @@ export default class Fragment1 extends Vue {
   }
 
   &__container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
     display: flex;
@@ -198,7 +198,7 @@ export default class Fragment1 extends Vue {
 @keyframes entry-rigth {
   from {
     position: absolute;
-    left: 100vw;
+    left: 100%;
   }
   to {
     position: absolute;
@@ -213,7 +213,7 @@ export default class Fragment1 extends Vue {
   }
   to {
     position: absolute;
-    left: 100vw;
+    left: 100%;
   }
 }
 
