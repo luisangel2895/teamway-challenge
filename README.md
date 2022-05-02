@@ -1,5 +1,14 @@
 # Challenge for TeamWay
 
+In this challenge I created a quizzes application where you can create and solve quizzes for the moment only the option to solve quizzes is implemented, in the application I created 2 quizzes one about a personality test as indicated in the instructions of the challenge and another shorter math
+
+For reasons of time I was only able to develop the mobile version, for PC I modified the project a bit, here are the project links for mobile and desktop, I recommend using the links with these devices for a better experience:
+
+mobile -> https://cerulean-pudding-817c42.netlify.app/
+desktop -> https://aesthetic-basbousa-6bfce6.netlify.app/
+
+In a few days I will convert this app into an Android app using Cordova, to have a native app experience.
+
 # Stack
 
 The stack that I chose for this project that seems to me so far the most modern, professional and scalable within the vuejs environment is:
@@ -29,7 +38,7 @@ Basically it is a mobile application, for desktop limit the size so that it is o
 
 ![image](https://user-images.githubusercontent.com/16966767/166192214-fd8790f0-341c-44c9-b0d2-293f24b9b861.png)
 
-Also at the top in the description in the project you can also find the Android application that you can download that was created with Cordova, in this application you can better appreciate the functionalities of applications such as TouchEvents.
+In the part of the description of the project I leave 2 links of the project to enter this from desktop and cell phone, for a better experience I recommend using the links on the indicated devices.
 
 # Project
 
